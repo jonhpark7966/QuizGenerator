@@ -1,21 +1,27 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 
-from analyzer_agents.tools.custom_tool import NewsAPITool
+from analyzer_agents.tools.custom_tool import NewsAPITool, NewsAPIHeadlineTool
 
 from crewai_tools import tool
 
 import os
 
-# FIXME
-os.environ["OPENAI_API_KEY"]=''
-
 import requests
+
 @CrewBase
 class AnalyzerAgentsCrew():
 	"""AnalyzerAgents crew"""
 	agents_config = 'config/agents.yaml'
 	tasks_config = 'config/tasks.yaml'
+
+	@agent
+	def news_headline_crawler(self) -> Agent:
+		return Agent(
+			config=self.agents_config['news_headline_crawler'],
+			tools=[NewsAPIHeadlineTool()],
+			verbose=True
+		)
 
 	@agent
 	def news_crawler(self) -> Agent:
@@ -51,8 +57,16 @@ class AnalyzerAgentsCrew():
 		)
 
 	@task
+	def headline_extraction_task(self) -> Task:
+		return Task(
+			config=self.tasks_config['headline_extraction_task'],
+			output_file='headlines.json'
+		)
+
+	@task
 	def crawling_task(self) -> Task:
 		return Task(
+		    input_files=['headlines.json'],
 			config=self.tasks_config['crawling_task'],
 			output_file='news.json'
 		)
