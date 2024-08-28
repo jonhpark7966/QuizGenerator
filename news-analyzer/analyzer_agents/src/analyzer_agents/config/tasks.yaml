@@ -1,0 +1,65 @@
+crawling_task:
+  description: >
+    Use the web crawler to find the most popular news articles of the day, in each category.
+    Make sure you find popular news of hot topics that people likes.
+    Crawl the reliable news sources and get the news articles.
+  expected_output: >
+    A list with 5 news article titles, category and their URLs.
+    Make it to json format.
+  agent: news_crawler
+
+curation_task:
+  description: >
+    Review the list of news articles provided by the news_crawler.
+    Select the top 5 articles that are most likely to engage readers
+    based on their relevance, interest, and impact.
+    Ensure that the articles cover a diverse range of topics
+    to appeal to a broad audience.
+  expected_output: >
+    A curated list of 2 news articles with titles, categories, URLs,
+    and a brief explanation of why each article was selected.
+    Make it to json format.
+  agent: news_curator
+
+analysis_task:
+  description: >
+    Analyze the curated list of news articles provided by the news_curator.
+    For each article, generate a brief summary, identify key themes or topics,
+    and extract relevant keywords or tags that capture the essence of the article.
+    Ensure that the analysis highlights the most significant aspects of
+    each news piece to aid in further reporting or discussion.
+  expected_output: >
+    A detailed report containing, in json format:
+    - Article titles with their summaries.
+    - A list of key themes or topics for each article.
+    - A set of 5-7 keywords or tags for each article.
+  agent: news_analyzer
+
+translation_task:
+  description: >
+    Translate the analyzed news articles provided by the news_analyzer
+    from English to Korean. Ensure that the translations are accurate,
+    maintaining the original meaning, tone, and context of the articles.
+    Pay special attention to cultural nuances and readability for a
+    Korean audience.
+  expected_output: >
+    A translated document containing the article summaries, key themes,
+    and keywords in Korean. Each translation should preserve the integrity
+    of the original analysis while making it accessible to a
+    Korean-speaking audience, in json format.
+  agent: translator
+
+quiz_creation_task:
+  description: >
+    Create an engaging and humorous quiz based on the analyzed
+    news articles provided by the news_analyzer. The quiz should be designed
+    to test readers' knowledge of the day's news in a fun and interactive way.
+    Incorporate a mix of multiple-choice questions, true/false statements,
+    and fill-in-the-blank prompts, with some light-hearted or witty elements
+    to keep the quiz entertaining.
+  expected_output: >
+    A 10-question quiz with a mix of question types, including multiple-choice,
+    true/false. Each question should be followed
+    by the correct answer and a brief explanation or humorous commentary,
+    translated data, and original news source URL.
+  agent: quiz_generator

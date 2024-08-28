@@ -1,0 +1,29 @@
+```json
+[
+    {
+        "title": "Esta não se esperava! Custos de reparação de carros elétricos são 20% mais elevados",
+        "category": "Motors",
+        "url": "https://pplware.sapo.pt/motores/esta-nao-se-esperava-custos-de-reparacao-de-carros-eletricos-sao-20-mais-elevados/"
+    },
+    {
+        "title": "Volkswagen přináší herní zábavu do svých vozidel díky partnerství s AirConsole",
+        "category": "Technology",
+        "url": "https://cdr.cz/clanek/volkswagen-prinasi-herni-zabavu-do-svych-vozidel-diky-partnerstvi-s-airconsole"
+    },
+    {
+        "title": "El coche eléctrico, solo para bolsillos profundos",
+        "category": "Economy",
+        "url": "https://www.abc.es/motor/economia/coche-electrico-solo-bolsillos-profundos-20240826090000-nt.html"
+    },
+    {
+        "title": "Küresel piyasalar teknoloji hisselerindeki satış baskısıyla karışık seyrediyor",
+        "category": "Finance",
+        "url": "https://ekonomi.haber7.com/ekonomi/haber/3454500-kuresel-piyasalar-teknoloji-hisselerindeki-satis-baskisiyla-karisik-seyrediyor"
+    },
+    {
+        "title": "Tesla lanzará su camión eléctrico en Europa? Las sospechas aumentan con estas unidades vistas en Alemania",
+        "category": "Automotive",
+        "url": "https://www.hibridosyelectricos.com/camiones/tesla-lanzara-su-camion-electrico-en-europa-sospechas-aumentan-con-estas-unidades-vistas-en-alemania_75697_102.html"
+    }
+]
+```

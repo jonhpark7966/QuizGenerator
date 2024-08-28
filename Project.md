@@ -8,8 +8,6 @@
 
 # Architecture
 
-![[news_arch.svg]]
-
 ## News crawler
 - Input Source
 	- NEWSAPI.org
@@ -29,8 +27,9 @@
 	- Crawled news -> Structured data (JSON)
 - Implementation
 	- Agent (?)
+
 ## AI Quiz Generation
-- 
+-
 - CrewAI for high-level
 - LangGraph for low-level, if need it
 

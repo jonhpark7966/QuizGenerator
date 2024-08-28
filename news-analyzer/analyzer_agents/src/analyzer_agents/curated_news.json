@@ -1,0 +1,16 @@
+```json
+[
+    {
+        "title": "Esta não se esperava! Custos de reparação de carros elétricos são 20% mais elevados",
+        "category": "Motors",
+        "url": "https://pplware.sapo.pt/motores/esta-nao-se-esperava-custos-de-reparacao-de-carros-eletricos-sao-20-mais-elevados/",
+        "explanation": "This article dives into the unexpected high costs of repairing electric cars, a topic that affects a growing number of electric vehicle owners and could influence buying decisions. It is highly relevant as the electric vehicle market continues to grow."
+    },
+    {
+        "title": "Volkswagen přináší herní zábavu do svých vozidel díky partnerství s AirConsole",
+        "category": "Technology",
+        "url": "https://cdr.cz/clanek/volkswagen-prinasi-herni-zabavu-do-svych-vozidel-diky-partnerstvi-s-airconsole",
+        "explanation": "This piece discusses Volkswagen's innovative partnership with AirConsole to bring gaming entertainment into their vehicles, appealing to tech enthusiasts and car owners interested in in-car entertainment solutions. It showcases the intersection of technology and automotive industries."
+    }
+]
+```
