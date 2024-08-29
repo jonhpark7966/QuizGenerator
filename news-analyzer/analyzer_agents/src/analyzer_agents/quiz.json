@@ -1,78 +1,70 @@
-### Quiz: Test Your Knowledge on Today's News! 🚗🔋🎮
+The final quiz based on the analyzed news articles is:
 
-#### Question 1: Multiple Choice
-**Q1:** According to recent news, the repair costs for electric vehicles are how much higher compared to traditional vehicles?
-A) 10%  
-B) 20%  
-C) 30%  
-D) 40%  
+```json
+{
+    "quiz": [
+        {
+            "question": "미국 연방준비제도가 최근 금리를 몇 퍼센트 인상했나요?",
+            "type": "multiple_choice",
+            "choices": ["0.10%", "0.25%", "0.50%", "1.00%"],
+            "answer": "0.25%",
+            "commentary": "연방준비제도가 금리를 0.25% 인상했는데, 경제가 커피만큼 뜨거워지진 않을 것 같네요.",
+            "url": "http://example.com/global-markets-react"
+        },
+        {
+            "question": "과학자들이 달성한 최신 태양광 패널 효율은 몇 퍼센트인가요?",
+            "type": "multiple_choice",
+            "choices": ["30%", "47%", "50%", "60%"],
+            "answer": "47%",
+            "commentary": "47%의 효율! 햇빛도 이제 제대로 일하네요.",
+            "url": "http://example.com/renewable-energy-breakthrough"
+        },
+        {
+            "question": "북한은 최근 또 다른 미사일 시험 발사를 감행했다. (True/False)",
+            "type": "true_false",
+            "answer": "True",
+            "commentary": "북한이 또 미사일을 쏘았다고요? 국제사회는 '또?' 하고 반응했겠죠.",
+            "url": "http://example.com/north-korea-missile-test"
+        },
+        {
+            "question": "애플의 최신 아이폰 모델에는 어떤 기능이 포함되어 있나요?",
+            "type": "multiple_choice",
+            "choices": ["고급 카메라 시스템", "더 긴 배터리 수명", "향상된 성능", "이상 모두"],
+            "answer": "이상 모두",
+            "commentary": "애플의 새로운 아이폰, 기능이 너무 많아서 다 외우기 힘드네요!",
+            "url": "http://example.com/apple-iphone-launch"
+        },
+        {
+            "question": "한국 경제가 팬데믹 이후 회복 조짐을 보이고 있다. (True/False)",
+            "type": "true_false",
+            "answer": "True",
+            "commentary": "한국 경제가 회복 중이라니, 이제 지갑을 열 시간이네요!",
+            "url": "http://example.com/south-korea-economy-recovery"
+        },
+        {
+            "question": "유엔 보고서에 따르면 지구 온난화가 ______되고 있다고 경고하고 있다.",
+            "type": "fill_in_the_blank",
+            "answer": "가속화",
+            "commentary": "지구가 점점 더 빨리 데워지고 있다니, 에어컨을 더 많이 켜야 할까요?",
+            "url": "http://example.com/un-report-climate-change"
+        },
+        {
+            "question": "주요 스포츠 리그는 COVID-19 예방 조치 속에서 시즌을 재개하고 있다. (True/False)",
+            "type": "true_false",
+            "answer": "True",
+            "commentary": "경기 중에도 사회적 거리두기라니, 선수들이 참 힘들겠어요!",
+            "url": "http://example.com/sports-leagues-resume"
+        },
+        {
+            "question": "연구자들이 개발한 새로운 암 치료법은 어떤 결과를 보여주었나요?",
+            "type": "multiple_choice",
+            "choices": ["유망한 초기 시험 결과", "실패한 시험 결과", "혼합된 결과", "아직 결과 없음"],
+            "answer": "유망한 초기 시험 결과",
+            "commentary": "새로운 암 치료법, 희망을 주는 소식이네요!",
+            "url": "http://example.com/cancer-research-breakthrough"
+        }
+    ]
+}
+```
 
-*Answer:* B) 20%  
-*Commentary:* Looks like even our eco-friendly rides come with a not-so-eco-friendly repair bill! Time to start a "Save for EV Repairs" fund!
-
-#### Question 2: True/False
-**Q2:** True or False? Volkswagen is considering integrating in-car gaming entertainment through a partnership with AirConsole.
-
-*Answer:* True  
-*Commentary:* That’s right! Now you can get stuck in traffic and still win at something—like defeating a boss level in your favorite game!
-
-#### Question 3: Fill-in-the-Blank
-**Q3:** The partnership between Volkswagen and _______ aims to provide in-car gaming entertainment.
-*Answer:* AirConsole  
-*Commentary:* Because sometimes the best road trips are the ones where you don’t move an inch!
-
-#### Question 4: Multiple Choice
-**Q4:** The article about electric vehicle repair costs primarily discusses which of the following themes?
-A) Market trends  
-B) Consumer considerations  
-C) Vehicle maintenance  
-D) All of the above  
-
-*Answer:* D) All of the above  
-*Commentary:* It’s like a buffet of information—something for everyone, especially if you own an EV!
-
-#### Question 5: True/False
-**Q5:** True or False? The integration of in-car gaming is targeted only at tech enthusiasts and not general car owners.
-
-*Answer:* False  
-*Commentary:* Gaming for all! Whether you’re a tech geek or just a bored passenger, there’s something for everyone in VW’s new gaming initiative.
-
-#### Question 6: Multiple Choice
-**Q6:** What percentage higher are the repair costs for electric vehicles compared to traditional ones, as mentioned in the news?
-A) 15%  
-B) 20%  
-C) 25%  
-D) 30%  
-
-*Answer:* B) 20%  
-*Commentary:* Ouch, that’s a shock to your wallet! Maybe we need a battery-powered piggy bank too.
-
-#### Question 7: Fill-in-the-Blank
-**Q7:** The unexpected high cost of repairing ________ is a key concern for potential and current owners.
-*Answer:* Electric Vehicles  
-*Commentary:* Looks like the only thing not getting a charge is our bank accounts!
-
-#### Question 8: True/False
-**Q8:** True or False? The article suggests that the high repair costs for electric vehicles are less significant to potential buyers.
-
-*Answer:* False  
-*Commentary:* High costs are always a buzzkill—whether it’s for avocado toast or EV repairs!
-
-#### Question 9: Multiple Choice
-**Q9:** Which company is Volkswagen partnering with to bring in-car gaming to their vehicles?
-A) PlayStation  
-B) Xbox  
-C) AirConsole  
-D) Nintendo  
-
-*Answer:* C) AirConsole  
-*Commentary:* Sorry Mario, you’re not driving this time!
-
-#### Question 10: Fill-in-the-Blank
-**Q10:** Volkswagen’s new gaming initiative is part of their effort to enhance ________ experience.
-*Answer:* Consumer  
-*Commentary:* Because a happy consumer is a repeat customer, especially if they can game while they wait!
-
-### News Articles:
-1. [Electric Vehicle Repair Costs](URL needed)
-2. [Volkswagen-AirConsole Partnership](URL needed)
+This quiz contains a mix of multiple-choice, true/false, and fill-in-the-blank questions, complete with correct answers, humorous commentary, and original news source URLs.

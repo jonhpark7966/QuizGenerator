@@ -1,16 +1,20 @@
 ```json
-[
+{
+  "Business": [
     {
-        "title": "Esta não se esperava! Custos de reparação de carros elétricos são 20% mais elevados",
-        "category": "Motors",
-        "url": "https://pplware.sapo.pt/motores/esta-nao-se-esperava-custos-de-reparacao-de-carros-eletricos-sao-20-mais-elevados/",
-        "explanation": "This article dives into the unexpected high costs of repairing electric cars, a topic that affects a growing number of electric vehicle owners and could influence buying decisions. It is highly relevant as the electric vehicle market continues to grow."
+      "title": "윤희성 수은 행장, 부산·경남서 현장 경영 '수출기업 집중 지원'",
+      "category": "Business",
+      "url": "http://www.segyebiz.com/newsView/20240829519157?OutUrl=naver",
+      "explanation": "This article highlights the Korea Export-Import Bank's efforts to support small and medium-sized enterprises (SMEs) in the export sector, particularly in the automotive industry. The focus on providing financial support to SMEs is crucial for boosting economic growth and regional industry competitiveness, making it a highly relevant topic for business readers."
     },
     {
-        "title": "Volkswagen přináší herní zábavu do svých vozidel díky partnerství s AirConsole",
-        "category": "Technology",
-        "url": "https://cdr.cz/clanek/volkswagen-prinasi-herni-zabavu-do-svych-vozidel-diky-partnerstvi-s-airconsole",
-        "explanation": "This piece discusses Volkswagen's innovative partnership with AirConsole to bring gaming entertainment into their vehicles, appealing to tech enthusiasts and car owners interested in in-car entertainment solutions. It showcases the intersection of technology and automotive industries."
+      "title": "윤 대통령 '국가가 국민연금 지급보장' 법에 명문화해야",
+      "category": "Business",
+      "url": "http://www.domin.co.kr/news/articleView.html?idxno=1482735",
+      "explanation": "This article discusses President Yoon Suk-yeol's proposal to legally guarantee the payment of national pensions. This policy initiative aims to address concerns about the sustainability and reliability of the pension system, ensuring financial security and trust among the youth. Given its significant impact on economic and social stability, this topic is highly engaging for readers interested in national economic policies."
     }
-]
+  ]
+}
 ```
+
+These articles were selected for their relevance, interest, and impact, addressing critical economic issues such as financial support for SMEs and the sustainability of the national pension system. They cover a diverse range of topics that appeal to a broad audience, ensuring high engagement.

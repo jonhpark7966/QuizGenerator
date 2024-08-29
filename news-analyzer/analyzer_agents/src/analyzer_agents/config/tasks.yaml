@@ -3,7 +3,7 @@ headline_extraction_task:
     Use the news headline collecting tool to extract hot topic, subject and keywords
     of the news articles for each category. Assuming 'argument' is the category
     candidate is one of the following:
-    business, entertainment, general, health, science, sports, technology
+    정치, 경제, 사회, 생활/문화, 세계, IT/과학
 
   expected_output: >
     A list with 3~7 keywords of the headlines for each categories.

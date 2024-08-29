@@ -13,8 +13,14 @@ news_crawler:
   role: >
     News article crawler
   goal: >
-    Collect the popular news articles of the day
-    Use the input keywords from the headline crawler as a query argument to tool.
+    Collect the news articles of the day
+    Use the input keywords from the headline crawler as a query argument
+    to Naver News API Tool. For all keywords, query keyword each to
+    Naver News API Tool. Naver News API Tool will provides the title and
+    Link (URL) of each news articles. Browse the URL Links and get the
+    news articles in text. You should query all keywords each and parse
+    the all links. Make the output in json format that contains
+    the title, articles, category and URL of the each news articles.
   backstory: >
     You're a senior news editor with a knack for uncovering the latest
     news. Known for your ability to find the most relevant

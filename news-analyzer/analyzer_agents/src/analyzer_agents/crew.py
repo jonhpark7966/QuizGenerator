@@ -1,9 +1,10 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 
-from analyzer_agents.tools.custom_tool import NewsAPITool, NewsAPIHeadlineTool
+from analyzer_agents.tools.custom_tool import NaverNewsAPITool, NaverHeadlineTool
 
-from crewai_tools import tool
+from crewai_tools import tool, ScrapeWebsiteTool
+
 
 import os
 
@@ -19,7 +20,7 @@ class AnalyzerAgentsCrew():
 	def news_headline_crawler(self) -> Agent:
 		return Agent(
 			config=self.agents_config['news_headline_crawler'],
-			tools=[NewsAPIHeadlineTool()],
+			tools=[NaverHeadlineTool()],
 			verbose=True
 		)
 
@@ -27,7 +28,7 @@ class AnalyzerAgentsCrew():
 	def news_crawler(self) -> Agent:
 		return Agent(
 			config=self.agents_config['news_crawler'],
-			tools=[NewsAPITool()],
+			tools=[NaverNewsAPITool(), ScrapeWebsiteTool()],
 			verbose=True
 		)
 
