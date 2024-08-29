@@ -12,8 +12,18 @@
   - User can enjoy the quiz and learn the news
 
 ## Motivation & Purpose
-	- 많은 사람들이 뉴스를 읽는 데에 시간을 할애함
-	- 재밋는 뉴스, 좋은 뉴스 퀴즈 시스템을 만들자
+> 많은 사람들이 뉴스를 읽는 데에 시간을 할애함
+> 재밋는 뉴스, 좋은 뉴스 퀴즈 시스템을 만들자
+
+## Quick Start
+
+```bash
+# Install the dependencies
+poetry install
+poetry shell
+# Run the News Crawler
+crewai run
+```
 
 ## Tech Stack
 - CrewAI (Python)
