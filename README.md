@@ -51,3 +51,12 @@
 ### Front-end (Not yet decided)
 - Display the Quiz to the User
 - User Feedback Data should be collected
+
+
+## Future Work
+- change from CrewAI to LangGraph
+  - CrewAI is not for detailed instruction
+  - also is not enough for debugging
+- Implement the Quiz UI
+- Quiz Generator Prompting
+- Evalution using Ops system (e.g. langsmith)
